@@ -1,0 +1,29 @@
+# Eat lunch.
+eat food for food in ['toast', 'cheese', 'wine']
+
+# Fine dining
+courses = ['salad', 'entree', 'dessert']
+menu course + 1, dish for dish, course in courses
+
+# Health conscious meal
+foods = ['broccoli', 'spinach', 'chocolate']
+eat food for food in foods when food isnt 'chocolate'
+
+countdown = (num for num in [10..1])
+
+yearsOld = max: 10, ida: 9, tim: 11
+
+ages = for child, age of yearsOld
+  "#{child} is #{age}"
+
+# Econ 101
+if this.studyingEconomics
+  buy()  while supply > demand
+  sell() until supply > demand
+
+# Nursery Rhyme
+num = 6
+lyrics = while num -= 1
+  "#{num} little monkeys, jumping on the bed.
+    One fell out and bumped his head."
+
